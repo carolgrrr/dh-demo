@@ -5,22 +5,22 @@
 `$ chmod 400 /path/to/keypair.pem`
 
 ### Choose an Amazon Machine Image (AMI)
-	I like this one:
-	Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-26ebbc5c
+I like this one:
+	* Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-26ebbc5c
 
-`$ ssh -i /path/to/keypair.pem ubuntu@instance-public-dns.amazonaws.com`
+	`$ ssh -i /path/to/keypair.pem ubuntu@instance-public-dns.amazonaws.com`
 
 ### Initialize instance
-`$ sudo apt-get update
-$ sudo apt-get install git`
+	`$ sudo apt-get update`
+	`$ sudo apt-get install git`
 
 #### Initialize git
 * if you do not do this you will get the following error: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists.
 
-```$ git config --global user.name "Mona Lisa"
-$ sudo vi ~/.ssh/id_rsa [copy contents from existing private key]
-$ sudo vi ~/.ssh/id_rsa.pub [copy contents from existing public key]
-$ git config --global push.default simple```
+	`$ git config --global user.name "Mona Lisa"`
+	`$ sudo vi ~/.ssh/id_rsa [copy contents from existing private key]`
+	`$ sudo vi ~/.ssh/id_rsa.pub [copy contents from existing public key]`
+	`$ git config --global push.default simple`
 
 ### Clone Git Repository
 `$ git clone https://github.com/carolgrrr/dh-demo.git`
