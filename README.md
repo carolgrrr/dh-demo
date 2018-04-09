@@ -37,12 +37,18 @@ I like this one:
 * Other Python libraries - installed with pip
 
 `$ sudo pip3 install boto3`
+
 `$ sudo pip3 install pymongo`
+
 `$ sudo pip3 install flask`
 
 * Flask
+
 `$ sudo pip3 install Flask-PyMongo`
+
 `$ iptables -I INPUT -p tcp --dport 5000 -j ACCEPT`
+
 * Other
+
 `youtubedl: $ sudo -H pip install --upgrade youtube-dl`
 * [wordpress](https://www.tecmint.com/install-wordpress-on-ubuntu-16-04-with-lamp/)
