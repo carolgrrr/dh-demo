@@ -56,4 +56,5 @@ If you do not do this you will get the following error:
 * Other
 
 `youtubedl: $ sudo -H pip install --upgrade youtube-dl`
+
 [wordpress](https://www.tecmint.com/install-wordpress-on-ubuntu-16-04-with-lamp/)
