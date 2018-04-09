@@ -2,11 +2,11 @@
 
 
 ### Create key pair. Save private key somewhere safe.
-`$ chmod 400 /path/to/keypair.pem`
+	$ chmod 400 /path/to/keypair.pem
 
 ### Choose an Amazon Machine Image (AMI)
 I like this one:
-	* Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-26ebbc5c
+	Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-26ebbc5c
 
 	$ ssh -i /path/to/keypair.pem ubuntu@instance-public-dns.amazonaws.com
 
