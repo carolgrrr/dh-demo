@@ -16,6 +16,7 @@ I like this one:
 
 #### Initialize git
 * if you do not do this you will get the following error: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists.
+
 `$ git config --global user.name "Mona Lisa"`
 `$ sudo vi ~/.ssh/id_rsa [copy contents from existing private key]`
 `$ sudo vi ~/.ssh/id_rsa.pub [copy contents from existing public key]`
@@ -27,9 +28,9 @@ I like this one:
 ### Install dependencies
 * Mongodb 
 	Install mongodb according to [this tutorial](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
-* Python - version  = ?
-`$ sudo apt install python3-pip`
-`$ pip install --upgrade pip`
+* Python
+	*`$ sudo apt install python3-pip`
+	*`$ pip install --upgrade pip`
 * Other Python libraries - installed with pip
 `$ sudo pip3 install boto3`
 `$ sudo pip3 install pymongo`
