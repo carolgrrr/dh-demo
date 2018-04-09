@@ -32,8 +32,7 @@ If you do not do this you will get the following error:
 	$ git clone https://github.com/carolgrrr/dh-demo.git
 
 ### Install dependencies
-* Mongodb 
-	Install mongodb according to [this tutorial](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
+* Mongodb: install according to [this tutorial](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
 * Python
 
 `$ sudo apt install python3-pip`
@@ -57,4 +56,4 @@ If you do not do this you will get the following error:
 * Other
 
 `youtubedl: $ sudo -H pip install --upgrade youtube-dl`
-* [wordpress](https://www.tecmint.com/install-wordpress-on-ubuntu-16-04-with-lamp/)
+[wordpress](https://www.tecmint.com/install-wordpress-on-ubuntu-16-04-with-lamp/)
