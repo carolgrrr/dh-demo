@@ -15,7 +15,9 @@ I like this one:
 	$ sudo apt-get install git
 
 #### Initialize git
-* if you do not do this you will get the following error: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists.
+If you do not do this you will get the following error: 
+
+	Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists.
 
 `$ git config --global user.name "Mona Lisa"`
 
@@ -26,14 +28,18 @@ I like this one:
 `$ git config --global push.default simple`
 
 ### Clone Git Repository
+
 	$ git clone https://github.com/carolgrrr/dh-demo.git
 
 ### Install dependencies
 * Mongodb 
 	Install mongodb according to [this tutorial](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
 * Python
-	`$ sudo apt install python3-pip`
-	`$ pip install --upgrade pip`
+
+`$ sudo apt install python3-pip`
+
+`$ pip install --upgrade pip`
+
 * Other Python libraries - installed with pip
 
 `$ sudo pip3 install boto3`
